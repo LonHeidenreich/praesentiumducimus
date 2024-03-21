@@ -1,0 +1,25 @@
+{
+  "name": "praesentiumducimus",
+  "version": "1.0.0",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LonHeidenreich/praesentiumducimus.git"
+  },
+  "author": "NyaVon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LonHeidenreich/praesentiumducimus.git/issues"
+  },
+  "homepage": "https://github.com/LonHeidenreich/praesentiumducimus.git",
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "typescript": "^4.1.3"
+  }
+}
